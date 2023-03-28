@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block title %} QR Pay {% endblock%}
+
+{% block content %}
+<div class="container-fluid form-page">
+    <div class="container form-container">
+        <!-- Form to feed database -->
+        <form method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form | crispy }}
+                <button class="btn btn-success btn-pay" type="submit">Pay</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock%}

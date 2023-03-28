@@ -1,0 +1,143 @@
+html, body {
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1rem;
+} 
+
+body {
+    height: 100vh;
+    background-color: whitesmoke;
+}
+#centre  {
+    display: block;
+    margin: 150px  400px;
+}
+
+.navbar {
+    background-color: #01A7A3;
+    position: relative;
+}
+
+.navbar-nav a { 
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.home-header {
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.home-row {
+    padding-top: 2%;
+}
+
+.card {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.card-body {
+    background-color: #00acb8;
+    color: white;
+}
+
+.card-body button {
+    float: right;
+}
+
+.form-page {
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: fit-content;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.btn-pay {
+    float: right;
+    margin-top: 2%;
+}
+
+.modal-backdrop {
+    opacity: 0.8 !important;
+}
+
+.footer-basic {
+    padding: 2% 0;
+    background-color: #01A7A3;
+    color: white;
+  }
+  
+  .footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-basic li {
+    padding: 0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 24px;
+    width: 2em;
+    height: 2em;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 1%;
+    color: inherit;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color: white;
+    margin-bottom:0;
+  }
+
+
+@media only screen and (max-width: 770px) {
+    .navbar-brand {
+        width: 100%;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .form-container {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
